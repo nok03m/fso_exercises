@@ -1,4 +1,4 @@
-```mermaid
+sequenceDiagram
     participant B as Browser
     participant S as Server
     %% new note diagram (No SPA)
@@ -25,4 +25,3 @@
     activate S
     S-->>B: JSON [{key: value, ...}]
     deactivate S
-```
