@@ -1,4 +1,4 @@
-sequenceDiagram
+```mermaid
     participant B as Browser
     participant S as Server
     %% SPA diagram 
@@ -33,3 +33,4 @@ sequenceDiagram
     S-->>B: JSON [{key: value, ...}]
     deactivate S
     Note right of B: Receive a JSON with the requested data.
+```
