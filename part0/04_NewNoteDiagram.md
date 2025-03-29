@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant B as Browser
     participant S as Server
@@ -25,3 +26,4 @@ sequenceDiagram
     activate S
     S-->>B: JSON [{key: value, ...}]
     deactivate S
+```
